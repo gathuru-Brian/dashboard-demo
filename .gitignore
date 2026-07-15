@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.streamlit/
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,102 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f8fafc;
+  background: #0f172a;
+  --panel-bg: #0b1220;
+  --card-bg: #0f172a;
+  --muted: #9aa8bd;
+}
+
+body, html, #root {
+  min-height: 100%;
+  margin: 0;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: var(--panel-bg);
+  border-right: 1px solid rgba(148, 163, 184, 0.06);
+  padding: 28px 20px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.45);
+}
+
+.brand {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 28px;
+  letter-spacing: 0.2px;
+}
+
+.sidebar nav a {
+  color: #cbd5e1;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.sidebar nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 32px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+header p {
+  color: var(--muted);
+}
+
+.panel {
+  background: var(--panel-bg);
+  border: 1px solid rgba(148, 163, 184, 0.06);
+  border-radius: 14px;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(2,6,23,0.45);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 22px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  border: 1px solid rgba(148,163,184,0.03);
+}
+
+.card strong {
+  font-size: 1.05rem;
+}
+
+.card small {
+  color: var(--muted);
+}
+
+pre {
+  background: #0f172a;
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 16px;
+  padding: 16px;
+  color: #e2e8f0;
+  overflow-x: auto;
+}
