@@ -11,3 +11,5 @@ python-dotenv
 streamlit
 plotly
 requests
+bcrypt
+openpyxl
