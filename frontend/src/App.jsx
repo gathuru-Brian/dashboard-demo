@@ -24,7 +24,7 @@ function App() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               treaty_id: 'TRT-2024-001',
-              client_name: 'Acentria Reinsurance',
+              client_name: 'Reinsurance Dashboard',
               effective_date: '2024-01-01',
               historical_losses: [
                 { year: 2020, reported_loss: 1800000.0, paid_loss: 1500000.0, premium: 2400000.0 },
@@ -74,7 +74,7 @@ function App() {
       </aside>
       <main>
         <header>
-          <h1>Acentria Reinsurance Dashboard</h1>
+          <h1>Reinsurance Dashboard</h1>
           <p>Market intelligence, pricing analytics, and portfolio insight.</p>
         </header>
         <section id="overview" className="panel">

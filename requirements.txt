@@ -13,3 +13,4 @@ plotly
 requests
 bcrypt
 openpyxl
+kaggle

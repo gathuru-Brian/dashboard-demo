@@ -10,33 +10,18 @@ linkUnderline = false
 
 [theme.dark]
 primaryColor = "#38BDF8"
-backgroundColor = "#04080F"
-secondaryBackgroundColor = "#0F172A"
+backgroundColor = "#020617"
+secondaryBackgroundColor = "#0B1220"
 textColor = "#E2E8F0"
 linkColor = "#7DD3FC"
-borderColor = "#334155"
+borderColor = "#1E293B"
 chartCategoricalColors = ["#38BDF8", "#A78BFA", "#34D399", "#FBBF24", "#FB7185", "#60A5FA"]
 
 [theme.dark.sidebar]
-backgroundColor = "#02040A"
-secondaryBackgroundColor = "#0F172A"
+backgroundColor = "#020617"
+secondaryBackgroundColor = "#0B1220"
 textColor = "#E2E8F0"
 borderColor = "#1E293B"
-
-[theme.light]
-primaryColor = "#075985"
-backgroundColor = "#F8FAFC"
-secondaryBackgroundColor = "#EAF2F8"
-textColor = "#0F172A"
-linkColor = "#0369A1"
-borderColor = "#CBD5E1"
-chartCategoricalColors = ["#0369A1", "#6D28D9", "#047857", "#B45309", "#BE123C", "#1D4ED8"]
-
-[theme.light.sidebar]
-backgroundColor = "#EEF6FB"
-secondaryBackgroundColor = "#E0F2FE"
-textColor = "#0F172A"
-borderColor = "#CBD5E1"
 
 [server]
 headless = true
